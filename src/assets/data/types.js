@@ -1,8 +1,9 @@
 export const types = [
   {
     id: '0',
-    type: 'UberX',
+    type: 'SyncRideX',
     price: 22,
+    heding:0,
     duration: 45,
     seats: 4,
   },
@@ -10,13 +11,15 @@ export const types = [
     id: '1',
     type: 'Comfort',
     price: 27,
+    heading:90,
     duration: 30,
     seats: 4,
   },
   {
     id: '2',
-    type: 'UberXL',
+    type: 'SyncRideXL',
     price: 36,
+    heading:50,
     duration: 27,
     seats: 6,
   },

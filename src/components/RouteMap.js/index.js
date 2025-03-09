@@ -117,9 +117,11 @@ const GoMapsDirections = ({ origin, destination }) => {
         />
         {routeCoordinates.length > 0 && (
           <Polyline
+            latitudeDelta={0.04}
+            longitudeDelta={0.06}
             coordinates={routeCoordinates}
             strokeWidth={4}
-            strokeColor="blue"  // Polyline color (adjust if needed)
+            strokeColor="black"  // Polyline color (adjust if needed)
           />
         )}
       </MapView>

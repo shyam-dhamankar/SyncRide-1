@@ -13,9 +13,9 @@ const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <GestureHandlerRootView >
-        {/* <HomeScreen /> */}
+        <HomeScreen />
         {/* <DestinationSearch /> */}
-        <SearchResult />
+        {/* <SearchResult /> */}
       </GestureHandlerRootView>
     </SafeAreaView>
   );
