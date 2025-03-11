@@ -5,10 +5,10 @@ import cars from '../../assets/data/cars';
 
 const ExtraMarkers = () => {
   const getImage = (type) => {
-    if (type === "UberX") {
-      return require("../../assets/images/UberX.jpeg");
+    if (type === "SyncRideX") {
+      return require("../../assets/images/SyncRideX.jpeg");
     } else if (type === "UberXL") {
-      return require("../../assets/images/UberXL.jpeg");
+      return require("../../assets/images/SyncRideXL.jpeg");
     } else {
       return require("../../assets/images/Comfort.jpeg");
     }

@@ -1,9 +1,9 @@
 import { View, Dimensions } from "react-native";
 import React from "react";
 import HomeMap from "../../components/HomeMap/index.js";
-import CovidMassage from "../../components/CovidMassage";
+import CovidMassage from "../../components/HoliMassageComponent/index.js";
 import HomeSearch from "../../components/HomeSearch";
-
+import { withNavigation } from '@react-navigation/compat';
 
 
 const HomeScreen = () => {

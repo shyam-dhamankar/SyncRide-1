@@ -6,7 +6,7 @@ import AutocompleteScreen from "../../components/GomapComponent/gomapproautoComp
 import { Alert } from "react-native";
 
 
-const DestinationSearch = () => {
+const DestinationSearch = ({navigation}) => {
   const [From, setFromtext] = useState("");
   const [To, setToText] = useState("");
   const [PickUp,setpickup]=useState('')
@@ -17,6 +17,7 @@ const DestinationSearch = () => {
       if(PickUp&&DropLocation)
       {
         Alert.alert('yes good')
+        navigation.navigate('SearchResult',{PickUp,DropLocation})
       }
     },[PickUp,DropLocation])
   

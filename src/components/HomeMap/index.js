@@ -25,10 +25,10 @@ const HomeMap = () => {
 
   const getImage = (type) => {
     switch (type) {
-      case "UberX":
-        return require("../../assets/images/UberX.jpeg");
-      case "UberXL":
-        return require("../../assets/images/UberXL.jpeg");
+      case "SyncRideX":
+        return require("../../assets/images/SyncRideX.jpeg");
+      case "SyncRideXL":
+        return require("../../assets/images/SyncRideXL.jpeg");
       default:
         return require("../../assets/images/Comfort.jpeg");
     }

@@ -6,10 +6,10 @@ import { Ionicons } from "@expo/vector-icons";
 
 const UberType = ({ typep }) => {
   function getImage() {
-    if (typep.type === "UberX") {
-      return require("../../assets/images/UberX.jpeg");
-    } else if (typep.type === "UberXL") {
-      return require("../../assets/images/UberXL.jpeg");
+    if (typep.type === "SyncRideX") {
+      return require("../../assets/images/SyncRideX.jpeg");
+    } else if (typep.type === "SyncRideXL") {
+      return require("../../assets/images/SyncRideXL.jpeg");
     } else {
       return require("../../assets/images/Comfort.jpeg");
     }
@@ -33,7 +33,7 @@ const UberType = ({ typep }) => {
       </View>
       <View style={styles.tContainer}>
         <FontAwesome6 name="money-bill-trend-up" size={18} color="green" />
-        <Text style={{ fontSize: 16, marginHorizontal: 0.2 }}> {typep.price}💲.Est</Text>
+        <Text style={{ fontSize: 16, marginHorizontal: 0.2 }}> {typep.price} ₹.Est</Text>
       </View>
       
     </View>

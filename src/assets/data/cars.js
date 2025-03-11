@@ -1,7 +1,7 @@
 export default [
   {
     id: '0',
-    type: 'UberX',
+    type: 'SyncRideX',
     latitude: 28.450627,
     longitude: -16.263045,
     heading: 47,
@@ -15,7 +15,7 @@ export default [
   },
   {
     id: '2',
-    type: 'UberXL',
+    type: 'SyncRideXL',
     latitude: 28.456208,
     longitude: -16.259098,
     heading: 99,
